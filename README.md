@@ -19,8 +19,8 @@ This project conducts a sentiment analysis on the lyrics of Frank Ocean's offici
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Data Collection](#data-collection)
-3. [Preprocessing the Data](#preprocessing-the-data)
+2. [Data Collection and Genius API](#data-collection-using-the-genius-api)
+3. [Data processing](#data-processing)
 4. [Text Analysis and Word Frequency](#text-analysis-and-word-frequency)
 5. [Document-Feature Matrix (DFM) and Word Clouds](#document-feature-matrix-dfm-and-word-clouds)
 6. [Sentiment Analysis and Visualization](#sentiment-analysis-and-visualization)
@@ -30,25 +30,41 @@ This project conducts a sentiment analysis on the lyrics of Frank Ocean's offici
 
 ## Introduction
 
-The aim of this project is to analyze the sentiment expressed in Frank Ocean’s lyrics across his three albums. By utilizing text mining techniques and sentiment lexicons, we explore the emotional themes and lyrical nuances that define his musical journey.
+The aim of this project is to conduct a sentiment analysis on Frank Ocean’s lyrics, and to try to discern patterns and evolution based on various criteria.
+According to the Genius website, the artist has over 60 singles and unrealised pieces, however this report will focus on the three officially released albums: “Channel Orange,” “Blonde,” and “Nostalgia Ultra.”
+This project offers an exploration of data of lyrics and musical compositions, providing a diffrent perspective on the artist’s songs using various text mining and statistical methods .
 
 ---
 
-## Data Collection
+## Data Collection using the Genius API
 
-Lyrics were collected using the Genius API and processed with R programming. JSON files for each album were obtained and imported into R for analysis.
+To collect all the lyrics from the artist’s albums, we will use the “Genius API”, which serves as the connection between my program and the online music encyclopedia “Genius”.
+To gather the lyrics, I used my API Client page and accessed my client token. Using Python we then obtain Jason files for each album.
+
+These files are imported into R and organised into data frames for each album, including relevant song information.
 
 ---
 
-## Preprocessing the Data
+## Data processing
 
 Data frames were created for each album, including relevant song information such as title, ID, lyrics, and album release year. The lyrics were tokenized and transformed into a tidy format, facilitating text mining and analysis.
 
 ---
 
+## 4. Text Analysis and Word Frequency
+
+### 4.1 Tidy Format
+By creating a tidy version of words from lyrics, we ensures consistency to facilitate tokenisation and integra- tion for text mining tools.
+
+---
+
 ## Text Analysis and Word Frequency
 
-Word frequencies were analyzed across all albums and individually for each album. This involved creating word clouds and visualizing the most frequently used words in Frank Ocean's lyrics.
+Word frequencies were analysed across all albums and individually for each album. This involved creating word clouds and visualizing the most frequently used words in Frank Ocean's lyrics.
+
+Figure 1 : Most Frequently Used Words in all the Albums
+
+![Word Freq All](https://github.com/user-attachments/assets/061d477a-7d4f-40b7-95b5-b0e9fc6edbc0)
 
 ---
 
