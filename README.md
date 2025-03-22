@@ -1,5 +1,7 @@
 # Statistical-Emotions
 
+![images](https://github.com/user-attachments/assets/9617e266-7a12-4a1b-aa5a-131a77b62f34)
+
 **Sentiment Analysis on Frank Ocean Albums' Lyrics**
 
 **Project Title:** Frank Ocean’s Lyrics Sentiment Analysis
