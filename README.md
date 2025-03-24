@@ -64,19 +64,48 @@ By creating a tidy version of words from lyrics, we ensures consistency to facil
 
 Word frequencies were analysed across all albums and individually for each album. This involved creating word clouds and visualizing the most frequently used words in Frank Ocean's lyrics.
 
-Figure 1 : Most Frequently Used Words in all the Albums
+Figure 1 : Most frequencies throughout the albums
 
 ![Word Freq All](https://github.com/user-attachments/assets/061d477a-7d4f-40b7-95b5-b0e9fc6edbc0)
+
+Figure 2 : Word frequencies in the per albums
+![image](https://github.com/user-attachments/assets/97f3087d-0e9d-4a6e-8c38-678a61a963ab)
+
 
 ---
 
 ## Document-Feature Matrix (DFM) and Word Clouds
 
-A Document-Feature Matrix (DFM) was created to tabulate the frequency of terms in the lyrics corpus. Word clouds were generated for all albums and individually for each album, providing a visual representation of the most prominent words.
+A Document-Feature Matrix (DFM) was created to tabulate the frequency of terms in the lyrics corpus. Word clouds were generated for all albums and individually for each album, providing a visual representation of the most frequent and important words.
+
+Figure 3:  Wordcloud of across the albums
+![image](https://github.com/user-attachments/assets/54da6afd-5ac2-4b29-981c-21e3f79be201)
+
+### For each albums
+
+Figure 4. Blond Wordcloud
+![image](https://github.com/user-attachments/assets/d46d6228-f723-44f6-9176-c5b38032a806)
+
+
+Figure 5. Channel Orange Wordcloud
+![image](https://github.com/user-attachments/assets/e8cb5be7-8815-409a-aeb2-af7ae3421cf1)
+
+
+Figure 6. Nostalgia Ultra Wordcloud
+![image](https://github.com/user-attachments/assets/b98d3ebb-abb3-4386-8103-e18f0028d4ed)
+
+###  Weighted Word Clouds 
+
+Additionally, We can look at a weighted DFM which will assign varying importance to terms based on their prevalence in shorter and longer songs. This weighting enhances accuracy by reflecting the significance of words in the lyrics corpus more effectively.
+
+Figure 7: Blond weighted wordcloud
+![image](https://github.com/user-attachments/assets/06b65512-8ff4-49ae-8f05-86ebf15703f7)
+
+Figure 8. Channel Orange weighted wordcloud
 
 ---
 
-## Sentiment Analysis and Visualization
+## Sentiment analysis and visualisation
 
 Sentiment scores were created using the NRC lexicon and custom lexicons for various themes. Descriptive statistics and ANOVA tests were conducted to analyze the sentiment scores. A correlation matrix was created to explore relationships between sentiment scores, and sentiment trends were visualized across albums.
 
