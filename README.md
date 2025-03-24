@@ -102,17 +102,67 @@ Figure 7: Blond weighted wordcloud
 ![image](https://github.com/user-attachments/assets/06b65512-8ff4-49ae-8f05-86ebf15703f7)
 
 Figure 8. Channel Orange weighted wordcloud
+![image](https://github.com/user-attachments/assets/f576a5b9-857c-4919-8bc7-460c774c0c17)
+
+Figure 9. Nostalgia Ultra weighted wordcloud
+![image](https://github.com/user-attachments/assets/097b88fa-0d26-4a0a-abc9-0e3a908ee531)
+
 
 ---
 
 ## Sentiment analysis and visualisation
 
-Sentiment scores were created using the NRC lexicon and custom lexicons for various themes. Descriptive statistics and ANOVA tests were conducted to analyze the sentiment scores. A correlation matrix was created to explore relationships between sentiment scores, and sentiment trends were visualized across albums.
+In this section, we will use the NRC lexicon and lexicons in the context of the songs themes that I have personally created in order to perform our sentiment analysis. The NRC dataset is a lexicon containing words annotated with sentiment categories. It classifies words based on emotions and sentiments, providing a structured resource for sentiment analysis in text data.
+
+### Creating Sentiment Scores 
+With out NRC dataset and our own lexicons, we create a sentiment scores for sentiments such as nostalgia, life, love, frustration, time, night, anticipation, anger, disgust, fear, joy, sadness, surprise, trust, positive, and negative.
+
+By scoring songs based on lexicon occurrences allows insights into thematic associations, enabling diverse assumptions about song sentiments.
+
+With our new scoring method, we can therefore conduct descriptive statistics and statistical tests and gain insights on our findings.
+
+### Descriptive Statistics
+
+|                    Mean        Median        SD
+nostalgia_score     0.1250000    0.0    0.3342187
+life_score          1.3750000    0.0    3.0008864
+love_score          3.7916667    1.0    6.6266976
+frustration_score   0.9166667    0.0    3.6718210
+time_score          1.7708333    1.0    2.8601412
+night_score         1.7291667    0.0    4.5883274
+anticipation_score 10.7708333    8.0   10.3681993
+anger_score         7.6458333    5.0    8.3347251
+disgust_score       5.8333333    3.5    7.5606296
+fear_score          7.3125000    5.0    7.8825319
+joy_score          13.1875000    9.0   12.3023199
+sadness_score      12.0208333    8.5   13.2817097
+surprise_score      7.7500000    4.5   10.1530836
+trust_score        14.6041667   10.5   12.9232424
+positive_score     22.6875000   20.5   18.6629183
+negative_score     12.1041667    9.5   11.3573288
+
+### Correlation Matrix
+A correlation matrix is useful for exploring the strength and direction of relationships between variables. It provides a comprehensive overview of pairwise correlations, helping identify patterns and dependencies in the data.
+
+Figure 10: Correlation Matrix between sentiment scores
+![image](https://github.com/user-attachments/assets/17669570-124f-42e7-a9d7-f627d9e73be2)
+
+## Sentiment patterns and trends over the albums
+
+Figure 10. Sentiment scores trends over the first, second and thrid albums 
+![image](https://github.com/user-attachments/assets/71510ad2-dfcd-47fc-9205-93fb5c13fadc)
+
+Figure 10, illustrates sentiment scores across Frank Ocean’s first and last albums, suggesting potential evolution in his songwriting, emotions, and overall themes. This visual aids in understanding how the artist’s expression and sentiments have evolved throughout different albums.
 
 ---
-
 ## Conclusion
 
-This project provides insights into the emotional themes and lyrical nuances in Frank Ocean’s albums. By using text mining and sentiment analysis, we explored the evolution of sentiments across his discography, offering a unique perspective on his artistic journey.
+In conclusion, this project examined sentiment patterns in Frank Ocean’s lyrics across his three official albums: “Nostalgia Ultra,” “Channel Orange,” and “Blonde.”
+
+By using text mining, sentiment lexicons, and statistical analyses, we looked at evolving emotional themes and lyrical nuances. The uses of of the NRC lexicon and personally curated lexicons offered insights into sentiments associated with themes like nostalgia, life, and love.
+
+Despite non-significant p-values in descriptive statistics and ANOVA tests, enhancing robustness necessitates a broader dataset, encompassing singles and unreleased tracks for a comprehensive time series analysis — a possibility that was unfortunately beyond the project’s scope.
+
+Nevertheless, this exploration provides intriguing observational insights into an artist’s emotive landscape, showcasing the potential of text analysis in unraveling intricate patterns within song lyrics.
 
 ---
