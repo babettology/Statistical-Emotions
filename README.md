@@ -122,24 +122,7 @@ By scoring songs based on lexicon occurrences allows insights into thematic asso
 With our new scoring method, we can therefore conduct descriptive statistics and statistical tests and gain insights on our findings.
 
 ### Descriptive Statistics
-
-|                    Mean        Median        SD
-nostalgia_score     0.1250000    0.0    0.3342187
-life_score          1.3750000    0.0    3.0008864
-love_score          3.7916667    1.0    6.6266976
-frustration_score   0.9166667    0.0    3.6718210
-time_score          1.7708333    1.0    2.8601412
-night_score         1.7291667    0.0    4.5883274
-anticipation_score 10.7708333    8.0   10.3681993
-anger_score         7.6458333    5.0    8.3347251
-disgust_score       5.8333333    3.5    7.5606296
-fear_score          7.3125000    5.0    7.8825319
-joy_score          13.1875000    9.0   12.3023199
-sadness_score      12.0208333    8.5   13.2817097
-surprise_score      7.7500000    4.5   10.1530836
-trust_score        14.6041667   10.5   12.9232424
-positive_score     22.6875000   20.5   18.6629183
-negative_score     12.1041667    9.5   11.3573288
+[descriptive stats.pdf](https://github.com/user-attachments/files/19428702/descriptive.stats.pdf)
 
 ### Correlation Matrix
 A correlation matrix is useful for exploring the strength and direction of relationships between variables. It provides a comprehensive overview of pairwise correlations, helping identify patterns and dependencies in the data.
